@@ -22,7 +22,9 @@
     "react-native-reanimated": "~1.13.0",
     "react-native-safe-area-context": "3.1.9",
     "react-native-screens": "~2.15.2",
+    "react-native-svg-charts": "^5.4.0",
     "react-native-web": "~0.13.12",
+    "remove": "^0.1.5",
     "styled-components": "^5.2.3"
   },
   "devDependencies": {
