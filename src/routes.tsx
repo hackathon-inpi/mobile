@@ -1,10 +1,6 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import Home from './pages/Home';
 
 export default function routes() {
-	return (
-		<View>
-			<Text>Routes</Text>
-		</View>
-	);
+	return <Home />;
 }
