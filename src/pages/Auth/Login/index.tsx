@@ -6,6 +6,7 @@ import {
 	RegisterMessage,
 } from './style';
 import { StackNavigationProp } from '@react-navigation/stack';
+import { useAuth } from '../../../context/auth';
 
 type LoginScreenNavigationProp = StackNavigationProp<
 	AuthStackParamList,
@@ -17,13 +18,19 @@ type Props = {
 };
 
 export default function Login({ navigation }: Props) {
+	const { signInUser } = useAuth();
+
 	function navigateToRegister() {
 		navigation.navigate('Register');
 	}
 
+	function attemptLogin() {
+		signInUser();
+	}
+
 	return (
 		<Container>
-			<LoginButton>
+			<LoginButton onPress={attemptLogin}>
 				<LoginButtonText>Login</LoginButtonText>
 			</LoginButton>
 
