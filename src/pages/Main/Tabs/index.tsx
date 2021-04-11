@@ -2,6 +2,7 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Home from '../Home';
 import Settings from '../Settings';
+import Profile from '../Profile';
 
 import { Entypo } from '@expo/vector-icons';
 import { FontAwesome5 } from '@expo/vector-icons';
@@ -23,7 +24,7 @@ export default function Tabs() {
 			/>
 			<Tab.Screen
 				name='Perfil'
-				component={Home}
+				component={Profile}
 				options={{
 					tabBarIcon: ({ color, size }) => (
 						<FontAwesome5 name='user-alt' size={24} color='black' />
