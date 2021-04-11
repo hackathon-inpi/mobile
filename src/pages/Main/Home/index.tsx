@@ -1,6 +1,10 @@
 import React from 'react';
-import { Container } from './style';
+import { Container, LogoutButtonText } from './style';
 
 export default function Home() {
-	return <Container />;
+	return (
+		<Container>
+			<LogoutButtonText>Home</LogoutButtonText>
+		</Container>
+	);
 }
