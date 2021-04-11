@@ -1,10 +1,10 @@
 import React from 'react';
-import Tabs from './pages/Tabs';
+import Tabs from '../Main/Tabs';
 
 import { createStackNavigator } from '@react-navigation/stack';
 const Stack = createStackNavigator();
 
-export default function Routes() {
+export default function Main() {
 	return (
 		<Stack.Navigator>
 			<Stack.Screen
