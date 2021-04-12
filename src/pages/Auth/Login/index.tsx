@@ -11,10 +11,11 @@ import {
 	LoginText,
 	LoginInputText,
 	LoginForgotPassText,
-	ImgLogo
+	ImgLogo,
 } from './style';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { useAuth } from '../../../context/auth';
+import Logo from '../../../../assets/logo.png';
 
 type LoginScreenNavigationProp = StackNavigationProp<
 	AuthStackParamList,
@@ -38,14 +39,13 @@ export default function Login({ navigation }: Props) {
 
 	return (
 		<Container>
-			<ImgLogo>
-			</ImgLogo>
+			<ImgLogo source={Logo} />
 			<LoginDisplay>
 				<LoginTextHeader>Entrar</LoginTextHeader>
 				<LoginText>E-mail</LoginText>
-				<LoginInputText placeholder="Digite seu e-mail aqui..."></LoginInputText>
+				<LoginInputText placeholder='Digite seu e-mail aqui...'></LoginInputText>
 				<LoginText>Senha</LoginText>
-				<LoginInputText placeholder="Digite sua senha aqui..."></LoginInputText>
+				<LoginInputText placeholder='Digite sua senha aqui...'></LoginInputText>
 				<LoginForgotPassText>Esqueci minha senha</LoginForgotPassText>
 				<LoginDisplayButton>
 					<LoginButton onPress={attemptLogin}>
@@ -53,7 +53,6 @@ export default function Login({ navigation }: Props) {
 					</LoginButton>
 				</LoginDisplayButton>
 			</LoginDisplay>
-
 			<RegisterMessage onPress={navigateToRegister}>
 				<RegisterButtonText>Criar minha conta no e-INPI</RegisterButtonText>
 			</RegisterMessage>
