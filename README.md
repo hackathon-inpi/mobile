@@ -1,9 +1,16 @@
 <!-- PROJECT LOGO -->
 <br />
+
+<p align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+  <img src="./assets/logo.png" alt="Logo" width="150" height="150"/>
+  </a>
+</p>
+
 <p align="center">
   <h2 align="center">Hackathon INPI</h2>
   <h3 align="center">INPI na Palma da Mão</h3>
-
+</p>
 <!-- ABOUT THE PROJECT -->
 
 ### Construído com
@@ -54,6 +61,7 @@ Lista de softwares necessários para rodar o projeto na máquina
 3. Configure o servidor disponível em: https://github.com/hackathon-inpi/api
 
 ## Uso
+
 Após verificar que todas os pré-requisitos são cumpridos e instalar o repositório, para utilizá-lo, basta executar um único comando:
 
 ```sh
