@@ -9,6 +9,7 @@ import { Entypo } from '@expo/vector-icons';
 import { Feather } from '@expo/vector-icons';
 import { AntDesign } from '@expo/vector-icons';
 import { Ionicons } from '@expo/vector-icons';
+import { FontAwesome } from '@expo/vector-icons';
 
 const Tab = createBottomTabNavigator();
 
@@ -44,11 +45,11 @@ export default function Tabs() {
 				}}
 			/>
 			<Tab.Screen
-				name='Configurações'
+				name='Perfil'
 				component={Settings}
 				options={{
 					tabBarIcon: ({ color, size }) => (
-						<Feather name='settings' size={24} color='black' />
+						<FontAwesome name='user' size={24} color='black' />
 					),
 				}}
 			/>
