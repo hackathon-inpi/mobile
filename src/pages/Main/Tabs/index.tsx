@@ -6,7 +6,6 @@ import Profile from '../Profile';
 import Requests from '../Requests';
 
 import { Entypo } from '@expo/vector-icons';
-import { Feather } from '@expo/vector-icons';
 import { AntDesign } from '@expo/vector-icons';
 import { Ionicons } from '@expo/vector-icons';
 import { FontAwesome } from '@expo/vector-icons';
@@ -15,7 +14,7 @@ const Tab = createBottomTabNavigator();
 
 export default function Tabs() {
 	return (
-		<Tab.Navigator>
+		<Tab.Navigator tabBarOptions={{ showLabel: false }}>
 			<Tab.Screen
 				name='Home'
 				component={Home}
