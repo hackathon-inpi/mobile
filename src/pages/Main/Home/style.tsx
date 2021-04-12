@@ -4,7 +4,7 @@ export const Body = styled.View`
 	flex: 1;
 	justify-content: flex-start;
 	align-items: center;
-	background-color: #F2F2F2;
+	background-color: #f2f2f2;
 `;
 
 export const Container = styled.View`
@@ -35,29 +35,27 @@ export const Header = styled.View`
 export const HeaderText = styled.Text`
 	margin-top: 20px;
 	font-weight: bold;
-	color: #FFFFFF;
+	color: #ffffff;
 	font-size: 16px;
-
 `;
 
-export const ImgProfile = styled.View`
+export const ImgProfile = styled.Image`
 	width: 100px;
 	height: 100px;
 	border-radius: 100px;
-	background-color: #1351b4;
 `;
 
 export const TextWelcome = styled.Text`
 	margin: 20px 0px;
 	font-size: 20px;
-	color: #6698EB;
+	color: #6698eb;
 `;
 
 export const BoardInfo = styled.View`
 	width: 100%;
 	border-width: 1px;
 	border-color: #1351b4;
-	background-color: #FFFFFF;
+	background-color: #ffffff;
 	border-radius: 8px;
 	padding: 24px 12px;
 `;
@@ -67,8 +65,7 @@ export const BoardFlex = styled.View`
 	justify-content: space-around;
 `;
 
-export const BoardText = styled.Text`
-`;
+export const BoardText = styled.Text``;
 
 export const BoardGraph = styled.View`
 	width: 50px;
@@ -97,7 +94,7 @@ export const RegisterDemand = styled.TouchableOpacity`
 	width: 100%;
 	border-width: 1px;
 	border-color: #1351b4;
-	background-color: #EAD555;
+	background-color: #ead555;
 	border-radius: 8px;
 	padding: 24px 12px;
 	justify-content: center;
@@ -123,7 +120,7 @@ export const MainButtom = styled.TouchableOpacity`
 	width: 30%;
 	border-width: 1px;
 	border-color: #1351b4;
-	background-color: #DCE2EB;
+	background-color: #dce2eb;
 	border-radius: 8px;
 	padding: 24px 12px;
 	justify-content: center;

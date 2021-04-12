@@ -18,8 +18,10 @@ import {
 	RegisterText,
 	MainDisplayButtons,
 	MainButtom,
-	ButtomText
+	ButtomText,
 } from './style';
+
+import UserPic from '../../../../assets/user.png';
 
 export default function Home() {
 	return (
@@ -28,7 +30,7 @@ export default function Home() {
 				<HeaderText>INPI</HeaderText>
 			</Header>
 			<Container>
-				<ImgProfile></ImgProfile>
+				<ImgProfile source={UserPic}></ImgProfile>
 				<TextWelcome>Bem-vinda, Ana Lúcia</TextWelcome>
 				<BoardInfo>
 					<BoardFlex>
